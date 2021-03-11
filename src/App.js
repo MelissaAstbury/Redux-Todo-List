@@ -1,9 +1,11 @@
 import './App.css';
 
+import Input from './components/Input/Input';
+
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="app">
+      <Input />
     </div>
   );
 };
