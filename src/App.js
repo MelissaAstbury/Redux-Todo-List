@@ -5,7 +5,10 @@ import Input from './components/Input/Input';
 const App = () => {
   return (
     <div className="app">
-      <Input />
+      <div className="app-container">
+        <div className="app-todo-container"></div>
+        <Input />
+      </div>
     </div>
   );
 };
